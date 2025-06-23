@@ -1,0 +1,29 @@
+
+# Default ignored files
+/shelf/
+/workspace.xml
+# === Maven ===
+target/
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+
+# === System Files ===
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log
+
+# === Temp/Backup Files ===
+*.tmp
+
+# === Env / Secrets ===
+.env
+application-local.properties
+application-secrets.properties
+
+# === Docker (Optional) ===
+*.pid
+*.container-id
