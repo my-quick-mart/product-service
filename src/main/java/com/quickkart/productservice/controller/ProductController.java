@@ -1,8 +1,9 @@
 package com.quickkart.productservice.controller;
 
-import com.quickkart.productservice.controller.dto.ProductCommandDto;
-import com.quickkart.productservice.controller.dto.ProductQueryDto;
+import com.quickkart.productservice.dto.ProductCommandDto;
+import com.quickkart.productservice.dto.ProductQueryDto;
 import com.quickkart.productservice.service.ProductService;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -22,7 +23,7 @@ public class ProductController {
     private static final Logger log = LoggerFactory.getLogger(ProductController.class);
 
     @PostMapping
-    public ResponseEntity<?> create(@RequestBody ProductCommandDto dto) {
+    public ResponseEntity<?> create(@RequestBody @Valid ProductCommandDto dto) {
         try {
             log.info("Creating product with payload: {}", dto);
             String id = productService.create(dto);

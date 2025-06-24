@@ -1,7 +1,7 @@
 package com.quickkart.productservice.service;
 
-import com.quickkart.productservice.controller.dto.ProductCommandDto;
-import com.quickkart.productservice.controller.dto.ProductQueryDto;
+import com.quickkart.productservice.dto.ProductCommandDto;
+import com.quickkart.productservice.dto.ProductQueryDto;
 import com.quickkart.productservice.model.Product;
 import com.quickkart.productservice.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
