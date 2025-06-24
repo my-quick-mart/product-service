@@ -1,4 +1,4 @@
-package com.quickkart.productservice.controller.dto;
+package com.quickkart.productservice.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
