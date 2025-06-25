@@ -1,4 +1,4 @@
-package com.quickkart.productservice.dto;
+package com.quickmart.productservice.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

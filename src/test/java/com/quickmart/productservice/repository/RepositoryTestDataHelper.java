@@ -1,12 +1,7 @@
-package com.quickkart.productservice.repository;
+package com.quickmart.productservice.repository;
 
-import com.quickkart.productservice.TestDataHelper;
-import com.quickkart.productservice.model.Product;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
+import com.quickmart.productservice.model.Product;
 import org.springframework.boot.test.context.TestComponent;
-import org.springframework.data.mongodb.repository.MongoRepository;
-import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
 

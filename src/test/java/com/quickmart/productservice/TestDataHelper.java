@@ -1,9 +1,8 @@
-package com.quickkart.productservice;
+package com.quickmart.productservice;
 
-import com.quickkart.productservice.dto.ProductCommandDto;
+import com.quickmart.productservice.dto.ProductCommandDto;
 
 import java.math.BigDecimal;
-import java.util.Objects;
 
 public class TestDataHelper {
 

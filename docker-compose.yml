@@ -3,12 +3,12 @@ version: '3.8'
 services:
   mongodb:
     image: mongo:7.0.5
-    container_name: mongo_container
+    container_name: quick_mart_product_service_mongo_container
     ports:
       - "27017:27017"
     environment:
       MONGO_INITDB_ROOT_USERNAME: admin
       MONGO_INITDB_ROOT_PASSWORD: password
-      MONGO_INITDB_DATABASE: productdb
+      MONGO_INITDB_DATABASE: quickmart_productdb
     volumes:
-      - /Users/chaitanya/Desktop/MainFolder/web development/Full stack projects/microservices/data:/data/db
+      - /Users/chaitanya/Desktop/MainFolder/web development/Full stack projects/microservices/data/mongo_product_data:/data/db

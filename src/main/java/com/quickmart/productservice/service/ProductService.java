@@ -1,9 +1,9 @@
-package com.quickkart.productservice.service;
+package com.quickmart.productservice.service;
 
-import com.quickkart.productservice.dto.ProductCommandDto;
-import com.quickkart.productservice.dto.ProductQueryDto;
-import com.quickkart.productservice.model.Product;
-import com.quickkart.productservice.repository.ProductRepository;
+import com.quickmart.productservice.dto.ProductCommandDto;
+import com.quickmart.productservice.dto.ProductQueryDto;
+import com.quickmart.productservice.model.Product;
+import com.quickmart.productservice.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

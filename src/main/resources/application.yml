@@ -3,4 +3,4 @@ spring:
     name: "Product Service"
   data:
     mongodb:
-      uri: "mongodb://admin:password@localhost:27017/productdb?authSource=admin"
+      uri: "mongodb://admin:password@localhost:27017/quickmart_productdb?authSource=admin"

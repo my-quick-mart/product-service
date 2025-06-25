@@ -1,7 +1,7 @@
-package com.quickkart.productservice.controller;
+package com.quickmart.productservice.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.quickkart.productservice.TestDataHelper;
+import com.quickmart.productservice.TestDataHelper;
 
 public class BaseControllerTest {
 

@@ -1,7 +1,7 @@
-package com.quickkart.productservice.controller;
+package com.quickmart.productservice.controller;
 
-import com.quickkart.productservice.dto.ProductCommandDto;
-import com.quickkart.productservice.service.ProductService;
+import com.quickmart.productservice.dto.ProductCommandDto;
+import com.quickmart.productservice.service.ProductService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 

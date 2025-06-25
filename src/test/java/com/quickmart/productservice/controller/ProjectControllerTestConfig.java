@@ -1,6 +1,6 @@
-package com.quickkart.productservice.controller;
+package com.quickmart.productservice.controller;
 
-import com.quickkart.productservice.service.ProductService;
+import com.quickmart.productservice.service.ProductService;
 import org.mockito.Mockito;
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.context.annotation.Bean;

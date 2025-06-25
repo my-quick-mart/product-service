@@ -1,8 +1,8 @@
-package com.quickkart.productservice.controller;
+package com.quickmart.productservice.controller;
 
-import com.quickkart.productservice.dto.ProductCommandDto;
-import com.quickkart.productservice.dto.ProductQueryDto;
-import com.quickkart.productservice.service.ProductService;
+import com.quickmart.productservice.dto.ProductCommandDto;
+import com.quickmart.productservice.dto.ProductQueryDto;
+import com.quickmart.productservice.service.ProductService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;

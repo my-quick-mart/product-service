@@ -1,4 +1,4 @@
-package com.quickkart.productservice.model;
+package com.quickmart.productservice.model;
 
 import lombok.*;
 import org.springframework.data.annotation.Id;

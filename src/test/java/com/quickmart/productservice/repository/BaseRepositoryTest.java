@@ -1,10 +1,9 @@
-package com.quickkart.productservice.repository;
+package com.quickmart.productservice.repository;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
 import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan("com.quickkart.productservice.repository")
+@ComponentScan("com.quickmart.productservice.repository")
 public class BaseRepositoryTest {
     @Autowired
     protected ProductRepository productRepository;

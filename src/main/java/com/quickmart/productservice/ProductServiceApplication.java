@@ -1,4 +1,4 @@
-package com.quickkart.productservice;
+package com.quickmart.productservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
